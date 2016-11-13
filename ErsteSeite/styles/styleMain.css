@@ -1,0 +1,75 @@
+/*General*/
+html {
+    background-color:brown;
+    font-family: fantasy;
+    font-size: 25px;
+}
+
+/*Head Box*/
+#header {
+    text-align: center;
+    background-color:dimgrey;
+    color: orangered;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+/*Middle Box*/
+
+#middle {
+    position: absolute;
+    top: 15%;
+    bottom: 10%;
+    left: 0;
+    right: 10%;
+    width: 100%;
+    height: auto;
+    align-content: center;
+}
+
+#image1 {
+    height: 100%;
+    width: auto;
+}
+/*Bottom Navigation Box*/
+
+#bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: dimgrey;
+    
+    
+}
+
+a {
+    color:orangered;
+    /*font-size: 30;*/
+    margin: auto;
+    position: relative;
+
+}
+
+a:hover {
+    color: darkred;
+}
+
+.navigation {
+    float: left;
+    width: 33%;
+    margin-right: 2%;
+    padding: 20px;
+    background-color: dimgrey;
+    box-sizing: border-box;
+}
+
+.navigation:last-child {
+    margin-right: 0%;
+}
+
+.navigation:hover {
+    background-color: darkgrey;
+}
